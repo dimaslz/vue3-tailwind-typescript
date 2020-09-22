@@ -1,6 +1,7 @@
 # vue3 + typescript + tailwindcss
 
 (WIP) A template project for my work.
+Demo deployed: https://vue3-tailwind-typescript.vercel.app
 
 ## Project setup
 
@@ -41,6 +42,7 @@ yarn lint
 ### TODO
 
 - [ ] Add TailwindCSS configuration
+- [ ] Add personal UI demo
 - [ ] Create a demo UI to test each feature with tests (store, views, transitions, routers)
 
 ### Customize configuration
