@@ -2,6 +2,13 @@
   "name": "vue3-typescript-tailwind",
   "version": "0.1.0",
   "private": true,
+  "author": "Dimas López (dimaslz) <me@dimaslz.io>",
+  "license": "MIT",
+  "description": "Base setup in Vue3 based in TypeScript with TailwindCSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimaslz/vue3-tailwind-typescript"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
