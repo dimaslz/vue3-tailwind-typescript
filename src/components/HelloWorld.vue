@@ -165,18 +165,22 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+h1 {
+  @apply text-4xl mt-6;
+}
 h3 {
-  margin: 40px 0 0;
+  @apply mt-10;
 }
 ul {
-  list-style-type: none;
-  padding: 0;
+  @apply p-0 list-none;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+  @apply inline-block mx-6;
 }
 a {
-  color: #42b983;
+  @apply text-green-400;
+  &:hover {
+    @apply text-green-600;
+  }
 }
 </style>

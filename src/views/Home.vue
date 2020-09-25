@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home flex flex-col items-center">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Vue3 demo with TypeScript and TailwindCSS" />
   </div>
