@@ -2,7 +2,7 @@
 
 (WIP) A template project for my work.
 Live demo: https://vue3-tailwind-typescript.vercel.app
-Test the project in live:
+Test the project in live: https://githubbox.com/dimaslz/vue3-tailwind-typescript
 
 Feel free to fork, I hope to help you :)
 
