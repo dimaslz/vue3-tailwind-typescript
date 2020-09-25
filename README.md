@@ -41,9 +41,9 @@ yarn lint
 
 ### TODO
 
-- [ ] Add TailwindCSS configuration
-- [ ] Add personal UI demo
-- [ ] Create a demo UI to test each feature with tests (store, views, transitions, routers)
+- [x] Add TailwindCSS configuration
+- [ ] Add custom UI demo
+- [ ] Add multiple examples (store, views, transitions, routers)
 
 ### Customize configuration
 
