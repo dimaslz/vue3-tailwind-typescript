@@ -2,6 +2,24 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
+      Test live demo here:
+      <a
+        href="https://githubbox.com/dimaslz/vue3-tailwind-typescript"
+        target="_blank"
+        rel="noopener"
+        >https://githubbox.com/dimaslz/vue3-tailwind-typescript</a
+      >.
+    </p>
+    <p>
+      Fork me in github:
+      <a
+        href="https://github.com/dimaslz/vue3-tailwind-typescript"
+        target="_blank"
+        rel="noopener"
+        >https://github.com/dimaslz/vue3-tailwind-typescript</a
+      >.
+    </p>
+    <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
