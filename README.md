@@ -1,7 +1,10 @@
-# vue3 + typescript + tailwindcss
+# vue3 + typescript + tailwindcss + sass
 
 (WIP) A template project for my work.
-Demo deployed: https://vue3-tailwind-typescript.vercel.app
+Live demo: https://vue3-tailwind-typescript.vercel.app
+Test the project in live:
+
+Feel free to fork, I hope to help you :)
 
 ## Project setup
 
