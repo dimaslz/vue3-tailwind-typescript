@@ -1,10 +1,15 @@
 module.exports = {
-  theme: {},
-  variants: {},
-  plugins: [],
   purge: {
+    mode: "all",
     enabled: process.env.NODE_ENV === "production",
-    content: ["./public/**/*.html", "./src/**/*.vue"],
+    preserveHtmlElements: false,
+    content: [
+      "./src/**/*.js",
+      "./src/**/*.vue",
+      "./src/**/*.ts",
+      "./src/**/*.scss",
+      "./public/**/*.html",
+    ],
     options: {
       whitelistPatterns: [
         /-(leave|enter|appear)(|-(to|from|active))$/,
@@ -13,4 +18,12 @@ module.exports = {
       ],
     },
   },
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 };
