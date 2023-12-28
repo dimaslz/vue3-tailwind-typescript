@@ -1,0 +1,37 @@
+@import "defineFont.css";
+
+html,
+body {
+  font-size: 16px;
+  font-size: calc(clamp(1rem, 0.55vw + 0.5rem, 1.063rem)) !important;
+  font-weight: 500;
+}
+
+.custom-font {
+  font-family: Righteous;
+  color: #374151
+}
+
+/* Add this if you're not using Tailwind CSS or you want a custom gradient */
+.edge-underline {
+  position: relative;
+  display: inline-block; /* Ensures the pseudo-element matches text width */
+}
+
+.edge-underline::after {
+  content: '';
+  display: block;
+  height: 0.2em; /* Initial thickness of the line */
+  background: linear-gradient(to right, #f56565, #fbbf24, #10b981);
+  border-radius: 1em; /* Smooths the ends of the underline */
+}
+
+.edge-underline::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10;
+  transform: scaleY(1); /* Normal thickness */
+  transform-origin: left bottom;
+  transition: transform 0.3s ease;
+}
