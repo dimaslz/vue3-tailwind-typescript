@@ -20,7 +20,14 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      borderColor: {
+        "custom-error": "#dc2626", // Assuming red-600 for your error color
+      },
+      textColor: {
+        "custom-error": "#dc2626", // Assuming red-600 for your error text color
+      },
+    },
   },
   variants: {
     extend: {},
