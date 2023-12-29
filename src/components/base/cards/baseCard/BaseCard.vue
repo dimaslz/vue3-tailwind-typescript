@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hoverable-card max-w-sm rounded shadow-lg bg-white rounded-md py-6 px-4 mb-7"
+    class="hoverable-card rounded shadow-lg bg-white rounded-xl py-6 px-4 mb-7"
     :style="{ height: cardHeight }"
   >
     <slot />

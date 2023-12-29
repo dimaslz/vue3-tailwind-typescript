@@ -28,6 +28,9 @@ module.exports = {
         "custom-error": "#dc2626", // Assuming red-600 for your error text color
       },
     },
+    // colors: {
+    //   blue: "#17275c",
+    // },
   },
   variants: {
     extend: {},
