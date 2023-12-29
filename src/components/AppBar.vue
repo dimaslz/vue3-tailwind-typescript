@@ -5,6 +5,7 @@
       isFullWidth ? 'container w-full' : 'w-1/2',
     ]"
   >
+    <!-- AppBar contents-->
     <div
       class="bg-white px-4 shadow-md h-full flex items-center rounded-full justify-between w-full"
     >
@@ -36,6 +37,13 @@
 import { defineComponent, ref, onUnmounted } from "vue";
 import InteractiveCircle from "./InteractiveCircle.vue";
 
+/**
+ * AppBar component used to navigate between different sections of the application.
+ * It can adjust its width based on the scroll position.
+ *
+ * @component
+ */
+
 export default defineComponent({
   name: "AppBar",
   components: {
@@ -43,14 +51,18 @@ export default defineComponent({
   },
 
   setup() {
+    /**
+     * Boolean ref that indicates if the AppBar should be displayed in full width.
+     * It becomes true when the window is scrolled past a certain threshold.
+     */
     const isFullWidth = ref(false);
 
     /**
-     * Method to listen to scroll and set isFullWidth
+     * Handle the scroll event and determine if AppBar should switch to full width.
      */
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      isFullWidth.value = scrollTop > 400; // Set the width when user scrolls past 400px
+      isFullWidth.value = scrollTop > 400;
     };
 
     /**
@@ -70,7 +82,7 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
 .transition-width {
   transition: width 0.3s ease;
 }
